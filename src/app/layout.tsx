@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Portfolio | Your Name",
-  description: "Professional portfolio showcasing expertise in Generative AI and Machine Learning",
+  title: "Tinku Choudhary",
+  description: "Professional portfolio",
 };
 
 export default function RootLayout({
