@@ -3,7 +3,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Navigation from '@/components/Navigation';
-import { ArrowDownTrayIcon, BookOpenIcon } from '@heroicons/react/24/outline';
+import { FiDownload } from 'react-icons/fi';
+import { BsBook } from 'react-icons/bs';
+import type { IconType } from 'react-icons';
+
+const DownloadIcon = FiDownload as IconType;
+const BookIcon = BsBook as IconType;
 
 export default function Resume() {
   const handleDownload = () => {
@@ -80,8 +85,8 @@ export default function Resume() {
               onClick={handleDownload}
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
-              <ArrowDownTrayIcon className="w-5 h-5 mr-2" />
-              Download Resume
+              {React.createElement(FiDownload, { size: 20 })}
+              <span className="ml-2">Download Resume</span>
             </button>
           </motion.section>
 
@@ -105,8 +110,8 @@ export default function Resume() {
                   className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="flex items-start mb-2">
-                    <BookOpenIcon className="w-5 h-5 text-blue-600 mr-2 mt-1" />
-                    <div>
+                    {React.createElement(BsBook, { size: 20, color: "#2563eb" })}
+                    <div className="ml-2">
                       <a 
                         href={book.link}
                         target="_blank"
