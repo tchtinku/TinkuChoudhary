@@ -1,4 +1,4 @@
-// File: /Users/macbookpro/Desktop/PowerProjects/MyPortfolio/src/app/resume/page.tsx
+// File: /Users/macbookpro/Desktop/Research/TinkuChoudhary/src/app/resume/page.tsx
 import * as entry from '../../../../src/app/resume/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

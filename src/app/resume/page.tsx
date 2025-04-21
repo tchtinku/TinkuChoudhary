@@ -11,34 +11,34 @@ export default function Resume() {
   };
 
   const books = [
-    { title: "Working Backwards", author: "Colin Bryar & Bill Carr", status: "Completed" },
-    { title: "AI Superpowers", author: "Kai-Fu Lee", status: "Completed" },
-    { title: "Real World AI", author: "Azeem Azhar", status: "Completed" },
-    { title: "Alchemy", author: "Rory Sutherland", status: "Completed" },
-    { title: "Read Write Own", author: "Chris Dixon", status: "Completed" },
-    { title: "High Output Management", author: "Andrew S. Grove", status: "Completed" },
-    { title: "Outliers", author: "Malcolm Gladwell", status: "Completed" },
-    { title: "The Hard Things about Hard Things", author: "Ben Horowitz", status: "Completed" },
-    { title: "Autobiography of Yogi", author: "Paramahansa Yogananda", status: "Completed" },
-    { title: "Deep Learning for Vision Systems", author: "Mohamed Elgendy", status: "Completed" },
-    { title: "What is ChatGPT doing", author: "Stephen Wolfram", status: "Completed" },
-    { title: "Hands on Large Language Models", author: "Various Authors", status: "Completed" },
-    { title: "Building LLMs for Production", author: "Various Authors", status: "Completed" },
-    { title: "Becoming Steve Jobs", author: "Brent Schlender & Rick Tetzeli", status: "Completed" },
-    { title: "Be 2.0", author: "Jim Collins", status: "Completed" },
-    { title: "Leading an Inspired Life", author: "Jim Rohn", status: "Completed" },
-    { title: "Coco Chanel", author: "Justine Picardie", status: "Completed" },
-    { title: "Build a Large Language Model", author: "Various Authors", status: "Completed" },
-    { title: "Warren Buffet", author: "Roger Lowenstein", status: "Completed" },
-    { title: "Last Man Standing", author: "James D. Scurlock", status: "Completed" },
-    { title: "The Power of Less", author: "Leo Babauta", status: "Completed" },
-    { title: "Strength Finder 2.0", author: "Tom Rath", status: "Completed" },
-    { title: "Purple Cow", author: "Seth Godin", status: "Completed" },
-    { title: "The Dance Cure", author: "Peter Lovatt", status: "Completed" },
-    { title: "Getting Things Done", author: "David Allen", status: "Completed" },
-    { title: "Linchpin", author: "Seth Godin", status: "Completed" },
-    { title: "SuperCommunicators", author: "Charles Duhigg", status: "Completed" },
-    { title: "The Dip", author: "Seth Godin", status: "Completed" }
+    { title: "Working Backwards", author: "Colin Bryar & Bill Carr", status: "Completed", link: "https://www.amazon.com/Working-Backwards-Inside-Story-Amazon/dp/1250267595" },
+    { title: "AI Superpowers", author: "Kai-Fu Lee", status: "Completed", link: "https://www.amazon.com/AI-Superpowers-China-Silicon-Valley/dp/132854639X" },
+    { title: "Real World AI", author: "Azeem Azhar", status: "Completed", link: "https://www.amazon.com/Exponential-Age-Radical-Technology-Transforming/dp/1541674098" },
+    { title: "Alchemy", author: "Rory Sutherland", status: "Completed", link: "https://www.amazon.com/Alchemy-Power-Ideas-Dont-Make/dp/006280283X" },
+    { title: "Read Write Own", author: "Chris Dixon", status: "Completed", link: "https://www.amazon.com/Read-Write-Own-Building-Internet/dp/0593731332" },
+    { title: "High Output Management", author: "Andrew S. Grove", status: "Completed", link: "https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884" },
+    { title: "Outliers", author: "Malcolm Gladwell", status: "Completed", link: "https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017922" },
+    { title: "The Hard Things about Hard Things", author: "Ben Horowitz", status: "Completed", link: "https://www.amazon.com/Hard-Thing-About-Hard-Things/dp/0062273205" },
+    { title: "Autobiography of Yogi", author: "Paramahansa Yogananda", status: "Completed", link: "https://www.amazon.com/Autobiography-Yogi-Paramahansa-Yogananda/dp/1565892127" },
+    { title: "Deep Learning for Vision Systems", author: "Mohamed Elgendy", status: "Completed", link: "https://www.amazon.com/Deep-Learning-Vision-Systems-Applications/dp/1617296198" },
+    { title: "What is ChatGPT doing", author: "Stephen Wolfram", status: "Completed", link: "https://www.amazon.com/What-Is-ChatGPT-Doing/dp/1579550876" },
+    { title: "Hands on Large Language Models", author: "Various Authors", status: "Completed", link: "https://www.amazon.com/Hands-Large-Language-Models-Practical/dp/1804610313" },
+    { title: "Building LLMs for Production", author: "Various Authors", status: "Completed", link: "https://www.amazon.com/Building-Large-Language-Models-Production/dp/1804610313" },
+    { title: "Becoming Steve Jobs", author: "Brent Schlender & Rick Tetzeli", status: "Completed", link: "https://www.amazon.com/Becoming-Steve-Jobs-Evolution-Visionary/dp/038534742X" },
+    { title: "Be 2.0", author: "Jim Collins", status: "Completed", link: "https://www.amazon.com/BE-2-0-Beyond-Entrepreneurship/dp/0593082364" },
+    { title: "Leading an Inspired Life", author: "Jim Rohn", status: "Completed", link: "https://www.amazon.com/Leading-Inspired-Life-Jim-Rohn/dp/1887219120" },
+    { title: "Coco Chanel", author: "Justine Picardie", status: "Completed", link: "https://www.amazon.com/Coco-Chanel-Legend-Life/dp/0061685668" },
+    { title: "Build a Large Language Model", author: "Various Authors", status: "Completed", link: "https://www.amazon.com/Building-Large-Language-Models-Practical/dp/1804610313" },
+    { title: "Warren Buffet", author: "Roger Lowenstein", status: "Completed", link: "https://www.amazon.com/Buffett-Making-American-Capitalist/dp/0812979273" },
+    { title: "Last Man Standing", author: "James D. Scurlock", status: "Completed", link: "https://www.amazon.com/Last-Man-Standing-Madoff-Century/dp/0061650786" },
+    { title: "The Power of Less", author: "Leo Babauta", status: "Completed", link: "https://www.amazon.com/Power-Less-Essential-Productivity-Simplicity/dp/1401309704" },
+    { title: "Strength Finder 2.0", author: "Tom Rath", status: "Completed", link: "https://www.amazon.com/StrengthsFinder-2-0-Tom-Rath/dp/159562015X" },
+    { title: "Purple Cow", author: "Seth Godin", status: "Completed", link: "https://www.amazon.com/Purple-Cow-Transform-Business-Being/dp/014101640X" },
+    { title: "The Dance Cure", author: "Peter Lovatt", status: "Completed", link: "https://www.amazon.com/Dance-Cure-Science-Movement-Healing/dp/1781258182" },
+    { title: "Getting Things Done", author: "David Allen", status: "Completed", link: "https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280" },
+    { title: "Linchpin", author: "Seth Godin", status: "Completed", link: "https://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591843162" },
+    { title: "SuperCommunicators", author: "Charles Duhigg", status: "Completed", link: "https://www.amazon.com/Supercommunicators-Conversation-Transform-Connect-Change/dp/0593442144" },
+    { title: "The Dip", author: "Seth Godin", status: "Completed", link: "https://www.amazon.com/Dip-Little-Book-Teaches-Stick/dp/1591841666" }
   ];
 
   return (
@@ -107,7 +107,14 @@ export default function Resume() {
                   <div className="flex items-start mb-2">
                     <BookOpenIcon className="w-5 h-5 text-blue-600 mr-2 mt-1" />
                     <div>
-                      <h3 className="text-lg font-semibold text-gray-900">{book.title}</h3>
+                      <a 
+                        href={book.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors"
+                      >
+                        {book.title}
+                      </a>
                       <p className="text-sm text-gray-600">{book.author}</p>
                     </div>
                   </div>
